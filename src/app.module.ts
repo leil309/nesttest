@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import {MemberModule} from "./member/member.module";
 
 @Module({
-  imports: [],
+  imports: [MemberModule],
   controllers: [AppController],
   providers: [AppService],
 })
